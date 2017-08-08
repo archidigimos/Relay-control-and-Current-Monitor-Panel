@@ -1,0 +1,73 @@
+ERROR:root:Oops:
+Traceback (most recent call last):
+  File "C:\Users\Archisman Sarkar\Desktop\ssarkar_project\relay_software\prevbuild\programs\relay_control_monitor_panel (2).pyw", line 184, in configuration
+    ser = serial.Serial(comPort, 115200, timeout=0)
+  File "C:\Python27\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\serial\serialutil.py", line 236, in __init__
+    self.open()
+  File "C:\Python27\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+SerialException: could not open port 'COM5': WindowsError(2, 'The system cannot find the file specified.')
+ERROR:root:Oops:
+Traceback (most recent call last):
+  File "C:\Users\Archisman Sarkar\Desktop\ssarkar_project\relay_software\prevbuild\programs\relay_control_monitor_panel (2).pyw", line 184, in configuration
+    ser = serial.Serial(comPort, 115200, timeout=0)
+  File "C:\Python27\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\serial\serialutil.py", line 236, in __init__
+    self.open()
+  File "C:\Python27\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+SerialException: could not open port 'COM5': WindowsError(2, 'The system cannot find the file specified.')
+ERROR:root:Oops:
+Traceback (most recent call last):
+  File "C:\Users\Archisman Sarkar\Desktop\ssarkar_project\relay_software\prevbuild\programs\relay_control_monitor_panel (2).pyw", line 184, in configuration
+    ser = serial.Serial(comPort, 115200, timeout=0)
+  File "C:\Python27\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\serial\serialutil.py", line 236, in __init__
+    self.open()
+  File "C:\Python27\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+SerialException: could not open port 'COM5': WindowsError(2, 'The system cannot find the file specified.')
+ERROR:root:Oops:
+Traceback (most recent call last):
+  File "C:\Users\Archisman Sarkar\Desktop\ssarkar_project\relay_software\prevbuild\programs\relay_control_monitor_panel (2).pyw", line 184, in configuration
+    ser = serial.Serial(comPort, 115200, timeout=0)
+  File "C:\Python27\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\serial\serialutil.py", line 236, in __init__
+    self.open()
+  File "C:\Python27\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+SerialException: could not open port 'COM5': WindowsError(2, 'The system cannot find the file specified.')
+ERROR:root:Oops:
+Traceback (most recent call last):
+  File "C:\Users\Archisman Sarkar\Desktop\ssarkar_project\relay_software\prevbuild\programs\relay_control_monitor_panel (2).pyw", line 184, in configuration
+    ser = serial.Serial(comPort, 115200, timeout=0)
+  File "C:\Python27\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\serial\serialutil.py", line 236, in __init__
+    self.open()
+  File "C:\Python27\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+SerialException: could not open port 'COM5': WindowsError(2, 'The system cannot find the file specified.')
+ERROR:root:Oops:
+Traceback (most recent call last):
+  File "rlcmp.py", line 2116, in <module>
+    app = SampleApp()
+  File "rlcmp.py", line 119, in __init__
+    frame = F(parent=container, controller=self)
+  File "rlcmp.py", line 1335, in __init__
+    om = tk.OptionMenu(self, om_variable, *options)
+TypeError: __init__() takes at least 4 arguments (3 given)
+ERROR:root:Oops:
+Traceback (most recent call last):
+  File "C:\Users\Archisman Sarkar\Desktop\ssarkar_project\relay_software\prevbuild\programs\rlcmp.py", line 2116, in <module>
+    app = SampleApp()
+  File "C:\Users\Archisman Sarkar\Desktop\ssarkar_project\relay_software\prevbuild\programs\rlcmp.py", line 119, in __init__
+    frame = F(parent=container, controller=self)
+  File "C:\Users\Archisman Sarkar\Desktop\ssarkar_project\relay_software\prevbuild\programs\rlcmp.py", line 1335, in __init__
+    om = tk.OptionMenu(self, om_variable, *options)
+TypeError: __init__() takes at least 4 arguments (3 given)
